@@ -1,0 +1,19 @@
+.header-container {
+    background-color: rgb(95, 169, 95);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.logo-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}

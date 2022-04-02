@@ -1,6 +1,6 @@
 .header-container {
-    background-color: rgb(95, 169, 95);
-    height: 60px;
+    background-color: orange;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -1,0 +1,14 @@
+.product-container img {
+    width: 200px;
+    height: 200px;
+}
+
+.product-container {
+    border: 1px solid red;
+    height: 342px;
+    width: 205px;
+}
+
+.icon {
+    font-size: 0.5em;
+}

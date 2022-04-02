@@ -12,9 +12,11 @@
 }
 
 .carousels {
-    padding: 30px 100px 0 100px;
+    padding: 30px 200px 0 200px;
 }
 
-/* .carousels img {
-    max-width: 80%;
-} */
+.order-products {
+    background-color: orange;
+    margin-top: 30px;
+    padding: 20px 15px;
+}

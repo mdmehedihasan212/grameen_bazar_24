@@ -12,7 +12,7 @@ const Header = () => {
                     <div className="logo">
                         <img src={logo} alt="" />
                     </div>
-                    <div className="input">
+                    {/* <div className="input">
                         <InputGroup className="m-3 w-252">
                             <FormControl placeholder="Search for products( fruite, egg, milk, etc... )"
                             />
@@ -20,12 +20,13 @@ const Header = () => {
                                 Button
                             </Button>
                         </InputGroup>
-                    </div>
+                    </div> */}
                 </div>
                 <nav className='navigate'>
                     <NavLink to={'/'} className={({ isActive }) => isActive ? "red" : "blue"}>Home</NavLink>
                     <NavLink to={'/contact'} className={({ isActive }) => isActive ? "red" : "blue"}>Contact</NavLink>
                     <NavLink to={'/about'} className={({ isActive }) => isActive ? "red" : "blue"}>About</NavLink>
+                    <NavLink to={'/sing-in'} className={({ isActive }) => isActive ? "red" : "blue"}>Sing in</NavLink>
                 </nav>
             </section>
         </div>

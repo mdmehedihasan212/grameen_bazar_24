@@ -15,5 +15,11 @@
 }
 
 .logo img {
-    width: 100px;
+    width: 80px;
+}
+
+.navigate a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
 }

@@ -4,11 +4,26 @@
 }
 
 .product-container {
-    border: 1px solid red;
     height: 342px;
     width: 205px;
 }
 
+.product-details {
+    text-align: center;
+}
+
+.price-item {
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: red;
+}
+
+.quantity-item {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 0.7em;
+}
+
 .icon {
-    font-size: 0.5em;
+    font-size: 1em;
 }

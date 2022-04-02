@@ -1,11 +1,12 @@
 .product-container img {
     width: 200px;
-    height: 200px;
+    height: 180px;
 }
 
 .product-container {
     height: 342px;
     width: 205px;
+    position: relative;
 }
 
 .product-details {
@@ -16,6 +17,7 @@
     font-weight: bolder;
     font-size: 1.2em;
     color: red;
+    margin-bottom: 0;
 }
 
 .quantity-item {
@@ -26,4 +28,22 @@
 
 .icon {
     font-size: 1em;
+}
+
+.button-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    color: rgb(253, 135, 135);
+}
+
+.button-item:hover {
+    border: 1px solid lightgray;
+    color: red;
 }

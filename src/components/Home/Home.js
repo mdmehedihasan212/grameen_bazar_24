@@ -5,15 +5,15 @@ import Products from '../Products/Products';
 import { Carousel } from 'react-bootstrap';
 import banar from '../../images/ban02-1.jpg';
 import banar1 from '../../images/fruit-banner.jpg';
-import banar2 from '../../images/umekart_gr_1.jpeg';
+import banar2 from '../../images/Web-Banners-03.jpg';
 
 const Home = () => {
     const [products, setProducts] = useProduct();
 
     return (
-        <section className='home-container'>
+        <section>
             <div className="carousels">
-                <Carousel>
+                <Carousel fade>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
@@ -51,18 +51,21 @@ const Home = () => {
                     </Carousel.Item>
                 </Carousel>
             </div>
-            <div className="products-item">
-                {
-                    products.map(product => <Products
-                        key={product.id}
-                        product={product}
-                    ></Products>)
-                }
-            </div>
-            <div className="order-products">
-
+            <div className='home-container'>
+                <div className="products">
+                    {
+                        products.map(product => <Products
+                            key={product.id}
+                            product={product}
+                        ></Products>)
+                    }
+                </div>
+                <div className="order-products">
+                    <h1>Order Summary</h1>
+                </div>
             </div>
         </section>
+
     );
 };
 

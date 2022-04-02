@@ -12,15 +12,15 @@ const Header = () => {
                     <div className="logo">
                         <img src={logo} alt="" />
                     </div>
-                    {/* <div className="input">
-                        <InputGroup className="m-3 w-252">
+                    <div className="input">
+                        <InputGroup className="m-3 w-100">
                             <FormControl placeholder="Search for products( fruite, egg, milk, etc... )"
                             />
                             <Button>
-                                Button
+                                Search
                             </Button>
                         </InputGroup>
-                    </div> */}
+                    </div>
                 </div>
                 <nav className='navigate'>
                     <NavLink to={'/'} className={({ isActive }) => isActive ? "red" : "blue"}>Home</NavLink>

@@ -1,8 +1,20 @@
-.products-item {
+.home-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: 4fr 1fr;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px 80px;
+    grid-gap: 40px;
+
 }
 
 .carousels {
     padding: 30px 100px 0 100px;
 }
+
+/* .carousels img {
+    max-width: 80%;
+} */

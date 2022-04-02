@@ -14,6 +14,12 @@
     align-items: center;
 }
 
+.input-group>.form-control,
+.input-group>.form-select {
+    width: 600px !important;
+}
+
+
 .logo img {
     width: 80px;
 }

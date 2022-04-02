@@ -1,6 +1,7 @@
 import React from 'react';
 import './Products.css';
 import { HiOutlineCurrencyBangladeshi } from 'react-icons/hi';
+import { BiShoppingBag } from 'react-icons/bi';
 
 const Products = ({ product }) => {
     console.log(product);
@@ -15,7 +16,13 @@ const Products = ({ product }) => {
                     <p className="price-item">
                         <HiOutlineCurrencyBangladeshi className="icon" />  {price}</p>
                 </div>
+                <div className="button-container">
+                    <button className="button-item">
+                        <BiShoppingBag></BiShoppingBag>
+                        Add to Bag</button>
+                </div>
             </div>
+
         </section>
     );
 };

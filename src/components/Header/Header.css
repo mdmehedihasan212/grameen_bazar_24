@@ -16,7 +16,7 @@
 
 .input-group>.form-control,
 .input-group>.form-select {
-    width: 600px !important;
+    width: 500px !important;
 }
 
 
@@ -28,4 +28,14 @@
     margin-left: 20px;
     text-decoration: none;
     color: white;
+}
+
+.active {
+    transition: color ease-in-out 300ms;
+    color: #1b4388 !important;
+}
+
+.inactive {
+    transition: color ease-in-out 300ms;
+    color: #1e90c2 !important;
 }

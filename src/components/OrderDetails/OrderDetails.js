@@ -2,7 +2,7 @@ import { Button, Spinner } from 'react-bootstrap';
 import SelectedOrder from '../SelectedOrder/SelectedOrder';
 import './OrderDetails.css';
 
-const OrderDetails = ({ product, removeToBag }) => {
+const OrderDetails = ({ product }) => {
     // console.log(product);
     return (
         <div>
@@ -11,13 +11,12 @@ const OrderDetails = ({ product, removeToBag }) => {
                 product.map(selectItem => <SelectedOrder
                     key={selectItem.id}
                     selectItem={selectItem}
-                    removeToBag={removeToBag}
+                // removeToBag={removeToBag}
                 ></SelectedOrder>)
             }
-            {product.length === 0 || <p>Yah!!! Yor Are Buying</p>}
-            {product.length !== 4 ? <p>Please Add For Cuppon</p> : <button>Please Review Item</button>}
-            {product.length === 3 && <div>
-                {/* <p>Three Item Already Added</p> */}
+            {/* {product.length === 0 || <h4 className='alert'>Yah!!! Yor Are Buying</h4>} */}
+            {product.length !== 4 ? <h4 className='alert'>Buy For Cuppon</h4> : <button>Please Review Item</button>}
+            {/* {product.length === 3 && <div>
                 <Button variant="primary" disabled>
                     <Spinner
                         as="span"
@@ -28,7 +27,7 @@ const OrderDetails = ({ product, removeToBag }) => {
                     />
                     Balance Over
                 </Button>
-            </div>}
+            </div>} */}
         </div>
     );
 };

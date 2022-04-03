@@ -1,0 +1,21 @@
+.order-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-delete {
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    color: rgb(253, 135, 135);
+}
+
+.button-delete:hover {
+    border: 1px solid lightgray;
+    color: red;
+}
+
+.delete-icon {
+    font-size: 1.7em;
+}

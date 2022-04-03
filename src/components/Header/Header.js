@@ -23,10 +23,11 @@ const Header = () => {
                     </div>
                 </div>
                 <nav className='navigate'>
-                    <NavLink to={'/'} className={({ isActive }) => isActive ? "red" : "blue"}>Home</NavLink>
-                    <NavLink to={'/contact'} className={({ isActive }) => isActive ? "red" : "blue"}>Contact</NavLink>
-                    <NavLink to={'/about'} className={({ isActive }) => isActive ? "red" : "blue"}>About</NavLink>
-                    <NavLink to={'/sing-in'} className={({ isActive }) => isActive ? "red" : "blue"}>Sing in</NavLink>
+                    <NavLink to={'/'} className={({ isActive }) => isActive ? "active" : "inactive"}>Home</NavLink>
+                    <NavLink to={'/order-review'} className={({ isActive }) => isActive ? "active" : "inactive"}>Order Review</NavLink>
+                    <NavLink to={'/contact'} className={({ isActive }) => isActive ? "active" : "inactive"}>Contact</NavLink>
+                    <NavLink to={'/about'} className={({ isActive }) => isActive ? "active" : "inactive"}>About</NavLink>
+                    <NavLink to={'/sing-in'} className={({ isActive }) => isActive ? "active" : "inactive"}>Sing in</NavLink>
                 </nav>
             </section>
         </div>
